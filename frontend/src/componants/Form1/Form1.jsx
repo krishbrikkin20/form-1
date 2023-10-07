@@ -22,9 +22,9 @@ export default function Form1() {
     const handleCheckboxChange = () => {
         const checkBoxs = document.getElementsByName('chackBox')
         const checkedValue = []
-        
+
         checkBoxs.forEach((checkBox) => {
-            if(checkBox.checked){
+            if (checkBox.checked) {
                 checkedValue.push(checkBox.value)
             }
         })
@@ -294,12 +294,12 @@ export default function Form1() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="-mx-3 md:flex">
-                                <div className="md:w-full px-3">
-                                    <button className="transition-all md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover: border-gray-500 hover:border-gray-100 rounded-full">
-                                        Submit
-                                    </button>
-                                </div>
+                        </div>
+                        <div className="-mx-3 md:flex">
+                            <div className="md:w-full px-3">
+                                <button className="transition-all md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover: border-gray-500 hover:border-gray-100 rounded-full">
+                                    Submit
+                                </button>
                             </div>
                         </div>
                     </div>
